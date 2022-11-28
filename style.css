@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Sen, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #eb5757;
+  z-index: 9;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #f9f9f9;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background: #000000;
+  border-radius: 6px;
+}
+
+nav a#cartlink:hover {
+ background-color: #eb5757;
+}
+
+img#cart {
+  position: relative;
+  bottom: -10px;
+  background-color: black;
+  width: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+main {
+  height: 1900px;
+  margin-top: 70px;
+}
+
+section#banners {
+  width: 100%;
+  min-height: 550px;
+  background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),
+    url(./images/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg);
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  display: flex;
+  align-items: center;
+}
+
+section#banners h2 {
+  font-size: 62px;
+  width: 35%;
+  color: #ffffff;
+}
+
+section#banners p {
+  width: 33%;
+  margin: 25px 0;
+  color: #f9f9f9;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+section#banners #buttonBanners {
+  border-radius: 6px;
+  padding: 7px 20px;
+  border: 1px solid #f9f9f9;
+  text-decoration: none;
+  color: #f9f9f9;
+  font-weight: 700;
+}
+
+section#banners #buttonBanners:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+section#support {
+  margin-top: 40px;
+}
+
+div#waytosupport {
+  margin-bottom: 30px;
+}
+
+div#waytosupport h2 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+div.contentbox {
+  width: 30%;
+  min-height: 200px;
+}
+
+div.contentbox .box {
+  background-color: #222;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+div.box p {
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 40px;
+  font-weight: 700;
+}
+div.box h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  
+}
+
+img#circulo {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -25%;
+  bottom: -25%;
+}
+
+img#triangulo {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -11%;
+  bottom: -17%;
+}
+
+img#retangulo {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -14%;
+  bottom: -35%;
+}
+div#waytosupport {
+  width: 500px;
+  height: 72px;
+}
+
+p.descricao {
+  line-height: 25px;
+  margin-bottom: 60px;
+}
+
+p#covid {
+  width: 526px;
+  height: 82px;
+  line-height: 1.4em;
+}
+
+section#safecovid {
+  min-height: 550px;
+  background-image: url(https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg);
+  background-size: auto cover;
+  background-position: center center;
+}

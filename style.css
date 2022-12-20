@@ -244,5 +244,24 @@ div.safe > button {
 }
 
 
+div#openn {
+  color: red;
+  display: inline-block;
+}
+
+div.openbox > img {
+  width: 370px;
+  height: 500px;
+  object-fit: cover;
+  
+}
+
+
+
+footer {
+  
+}
+
+
 
 
